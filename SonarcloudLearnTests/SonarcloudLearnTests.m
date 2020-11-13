@@ -38,4 +38,11 @@
     XCTAssertEqual(result, 25);
 }
 
+- (void)testMultipe {
+    NSInteger a = 4;
+    NSInteger b = 19;
+    NSInteger result = [self.calculator multipe:a by:b];
+    XCTAssertEqual(result, 76);
+}
+
 @end

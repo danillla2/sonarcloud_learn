@@ -21,4 +21,8 @@
     return result;
 }
 
+- (NSInteger)multipe:(NSInteger)first by:(NSInteger)second {
+    return first * second;
+}
+
 @end

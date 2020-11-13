@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSInteger)summ:(NSInteger)first with:(NSInteger)second;
 - (NSInteger)substract:(NSInteger)first from:(NSInteger)second;
+- (NSInteger)multipe:(NSInteger)first by:(NSInteger)second;
 
 @end
 
