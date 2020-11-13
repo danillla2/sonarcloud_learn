@@ -25,4 +25,8 @@
     return first * second;
 }
 
+- (NSInteger)thisMethodReturnsAlways20 {
+    return 20;
+}
+
 @end
