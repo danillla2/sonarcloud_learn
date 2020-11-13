@@ -6,31 +6,36 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "MathsOperations.h"
 
 @interface SonarcloudLearnTests : XCTestCase
+
+@property (nonatomic) MathsOperations *calculator;
 
 @end
 
 @implementation SonarcloudLearnTests
 
 - (void)setUp {
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    self.calculator = MathsOperations.new;
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    self.calculator = nil;
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testSumm {
+    NSInteger a = 3;
+    NSInteger b = 5;
+    NSInteger result = [self.calculator summ:a with:b];
+    XCTAssertEqual(result, 8);
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testSubstract {
+    NSInteger a = 48;
+    NSInteger b = 23;
+    NSInteger result = [self.calculator substract:b from:a];
+    XCTAssertEqual(result, 25);
 }
 
 @end

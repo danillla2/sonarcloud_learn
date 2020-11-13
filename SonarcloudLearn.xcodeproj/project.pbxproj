@@ -16,6 +16,7 @@
 		A21676D3255ED47500D8A8CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A21676D2255ED47500D8A8CC /* main.m */; };
 		A21676DD255ED47600D8A8CC /* SonarcloudLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A21676DC255ED47600D8A8CC /* SonarcloudLearnTests.m */; };
 		A21676E8255ED47600D8A8CC /* SonarcloudLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A21676E7255ED47600D8A8CC /* SonarcloudLearnUITests.m */; };
+		A21676FD255ED51C00D8A8CC /* MathsOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = A21676FC255ED51C00D8A8CC /* MathsOperations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A21676E3255ED47600D8A8CC /* SonarcloudLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarcloudLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21676E7255ED47600D8A8CC /* SonarcloudLearnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonarcloudLearnUITests.m; sourceTree = "<group>"; };
 		A21676E9255ED47600D8A8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21676FB255ED51C00D8A8CC /* MathsOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathsOperations.h; sourceTree = "<group>"; };
+		A21676FC255ED51C00D8A8CC /* MathsOperations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathsOperations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				A21676CE255ED47500D8A8CC /* LaunchScreen.storyboard */,
 				A21676D1255ED47500D8A8CC /* Info.plist */,
 				A21676D2255ED47500D8A8CC /* main.m */,
+				A21676FB255ED51C00D8A8CC /* MathsOperations.h */,
+				A21676FC255ED51C00D8A8CC /* MathsOperations.m */,
 			);
 			path = SonarcloudLearn;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			files = (
 				A21676C8255ED47500D8A8CC /* ViewController.m in Sources */,
 				A21676C2255ED47500D8A8CC /* AppDelegate.m in Sources */,
+				A21676FD255ED51C00D8A8CC /* MathsOperations.m in Sources */,
 				A21676D3255ED47500D8A8CC /* main.m in Sources */,
 				A21676C5255ED47500D8A8CC /* SceneDelegate.m in Sources */,
 			);
